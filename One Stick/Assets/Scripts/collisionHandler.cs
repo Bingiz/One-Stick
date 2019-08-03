@@ -10,8 +10,14 @@ public class collisionHandler : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameObject.Find("Game Controller").GetComponent<GameManager>();
+        stickHealth = GameObject.Find("Game Controller").GetComponent<StickHealth>();
         Debug.Log("stick set to false");
-        stick.SetActive(false);
+        if (stickHealth.burning)
+        {
+            stick.SetActive(true);
+        }
+        else stick.SetActive(false);
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)

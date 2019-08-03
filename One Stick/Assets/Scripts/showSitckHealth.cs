@@ -5,6 +5,12 @@ using UnityEngine;
 public class showSitckHealth : MonoBehaviour
 {
     public StickHealth stickHealth;
+
+    void Start()
+    {
+        stickHealth = GameObject.Find("Game Controller").GetComponent<StickHealth>();
+    }
+
     // Update is called once per frame
     void Update()
     {

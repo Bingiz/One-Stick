@@ -10,6 +10,7 @@ public class CharacterMovement : MonoBehaviour
         public float speed = 6.0f;
         public float jumpSpeed = 8.0f;
         public float gravity = 20.0f;
+        Animator anim;
 
         private Vector3 moveDirection = Vector3.zero;
         private Vector3 lookDirection = new Vector3(0,0,1);
@@ -21,6 +22,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
         {
+            anim = GetComponent<Animator>();
             characterController = GetComponent<CharacterController>();
         }
 
@@ -36,7 +38,16 @@ public class CharacterMovement : MonoBehaviour
 
                 if(moveDirection.x != 0 || moveDirection.z != 0) { 
                     lookDirection = moveDirection;
+
                 }
+            if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+            {
+                anim.SetBool("isRunning", true);
+            }
+            else
+            {
+                anim.SetBool("isRunning", false);
+            }
 
 
                 // Character needs no jump
