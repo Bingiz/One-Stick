@@ -6,7 +6,12 @@ public class StickHealth : MonoBehaviour
 {
 
     public bool burning = false;
-    public float burnSpeed = .1f;
+    [SerializeField]
+    public float defaultBurnSpeed = 1f;
+    [SerializeField]
+    public float windBurnSpeed = 5f;
+
+    public float burnSpeed = 1f;
     public float stickHealth = 100;
 
     // Start is called before the first frame update

@@ -8,6 +8,8 @@ TagManager:
   - Key
   - Button
   - Fire
+  - Water
+  - Wind
   layers:
   - Default
   - TransparentFX

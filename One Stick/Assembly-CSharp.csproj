@@ -62,13 +62,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CharacterAction.cs" />
+    <Compile Include="Assets\Scripts\ActivateButton.cs" />
+    <Compile Include="Assets\Scripts\AttachPlayer.cs" />
     <Compile Include="Assets\Scripts\ChangeRoom.cs" />
+    <Compile Include="Assets\Scripts\CharacterAction.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\collisionHandler.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PlatformMovement.cs" />
+    <Compile Include="Assets\Scripts\ShootWater.cs" />
     <Compile Include="Assets\Scripts\showSitckHealth.cs" />
     <Compile Include="Assets\Scripts\StickHealth.cs" />
+    <Compile Include="Assets\Scripts\WaterBullet.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/bingiz/Documents/GitHub/One Stick/One Stick/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

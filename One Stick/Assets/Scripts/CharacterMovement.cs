@@ -38,10 +38,13 @@ public class CharacterMovement : MonoBehaviour
                     lookDirection = moveDirection;
                 }
 
+
+                // Character needs no jump
                 if (Input.GetButton("Jump"))
                 {
                     moveDirection.y = jumpSpeed;
                 }
+
             }
 
             // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
