@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{9484D295-197F-82F4-7DD6-8278C430B04E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/collisionHandler.cs">
+    <Files>
+      <File FileName="Assets/Scripts/collisionHandler.cs" Line="28" Column="33" />
+      <File FileName="Assets/Scripts/ChangeRoom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CharacterMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/CharacterAction.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="One Stick" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="collisionHandler.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a196190a-8829-496f-ac43-e7287ff7c969" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
