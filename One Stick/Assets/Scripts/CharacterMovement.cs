@@ -10,7 +10,8 @@ public class CharacterMovement : MonoBehaviour
         public float speed = 6.0f;
         public float jumpSpeed = 8.0f;
         public float gravity = 20.0f;
-        Animator anim;
+        public Animator anim;
+        public Camera mainCam;
 
         private Vector3 moveDirection = Vector3.zero;
         private Vector3 lookDirection = new Vector3(0,0,1);
@@ -22,6 +23,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
         {
+        //mainCam = GameObject.Find("Main Camera").GetComponet<Camera>();
             anim = GetComponent<Animator>();
             characterController = GetComponent<CharacterController>();
         }
@@ -34,6 +36,7 @@ public class CharacterMovement : MonoBehaviour
                 // move direction directly from axes
 
                 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+                moveDirection = 
                 moveDirection *= speed;
 
                 if(moveDirection.x != 0 || moveDirection.z != 0) { 

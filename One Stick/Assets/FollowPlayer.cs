@@ -8,6 +8,10 @@ public class FollowPlayer : MonoBehaviour
 
     public Transform cameraDistance;
 
+    public bool rotateCamera = true;
+
+    public float rotationSpeed = 5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +23,10 @@ public class FollowPlayer : MonoBehaviour
     void Update()
     {
         transform.position = player.transform.position + cameraDistance.position;
+
+        if (rotateCamera)
+        {
+            Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X")* rotationSpeed, Vector3.up);
+        }
     }
 }

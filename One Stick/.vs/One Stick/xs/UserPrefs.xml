@@ -1,23 +1,16 @@
 ﻿<Properties StartupConfiguration="{9484D295-197F-82F4-7DD6-8278C430B04E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerFollow.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameManager.cs" Line="28" Column="55" />
-      <File FileName="Assets/GlobalControl.cs" Line="18" Column="12" />
-      <File FileName="Assets/Scripts/showSitckHealth.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/collisionHandler.cs" Line="19" Column="10" />
-      <File FileName="Assets/Scripts/StickHealth.cs" Line="12" Column="11" />
-      <File FileName="Assets/FollowPlayer.cs" Line="14" Column="50" />
-      <File FileName="Assets/CharacterAnimationHandler.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/CharacterMovement.cs" Line="29" Column="48" />
+      <File FileName="Assets/PlayerFollow.cs" Line="51" Column="6" />
+      <File FileName="Assets/NewCharacterMovement.cs" Line="31" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="One Stick" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="CharacterMovement.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
+              <Node name="PlayerFollow.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +26,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7b6f4ba4-eb02-4603-b349-0e6025bbb20c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bingiz/Documents/GitHub/One Stick/One Stick/Assets/Scripts/CharacterMovement.cs" relfile="Assets/Scripts/CharacterMovement.cs" line="62" column="1" />
+      <Breakpoint file="/Users/bingiz/Documents/GitHub/One Stick/One Stick/Assets/Scripts/CharacterMovement.cs" relfile="Assets/Scripts/CharacterMovement.cs" line="28" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

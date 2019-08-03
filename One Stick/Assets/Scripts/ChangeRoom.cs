@@ -7,4 +7,9 @@ public class ChangeRoom : MonoBehaviour
     public GameManager gameManager;
 
     public bool open = false;
+
+    void Start()
+    {
+        gameManager = GameObject.Find("Game Controller").GetComponent<GameManager>();
+    }
 }

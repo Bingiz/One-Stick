@@ -6,6 +6,11 @@ public class AttachPlayer : MonoBehaviour
 {
     public GameObject Player;
 
+    void Start()
+    {
+        Player = GameObject.Find("Character");
+    }
+
     private void OnTriggerEnter(Collider other)
     {
          

@@ -65,6 +65,8 @@
     <Compile Include="Assets\CharacterAnimationHandler.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\GlobalControl.cs" />
+    <Compile Include="Assets\NewCharacterMovement.cs" />
+    <Compile Include="Assets\PlayerFollow.cs" />
     <Compile Include="Assets\Scripts\ActivateButton.cs" />
     <Compile Include="Assets\Scripts\AttachPlayer.cs" />
     <Compile Include="Assets\Scripts\ChangeRoom.cs" />
