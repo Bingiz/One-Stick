@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{9484D295-197F-82F4-7DD6-8278C430B04E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/showSitckHealth.cs">
     <Files>
       <File FileName="Assets/PlayerFollow.cs" Line="51" Column="6" />
       <File FileName="Assets/NewCharacterMovement.cs" Line="31" Column="10" />
+      <File FileName="Assets/Scripts/showSitckHealth.cs" Line="18" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="One Stick" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
-              <Node name="PlayerFollow.cs" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="showSitckHealth.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

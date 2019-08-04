@@ -5,6 +5,7 @@ using UnityEngine;
 public class showSitckHealth : MonoBehaviour
 {
     public StickHealth stickHealth;
+    public GameObject Mask;
 
     void Start()
     {
