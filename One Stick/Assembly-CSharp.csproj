@@ -55,24 +55,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharacterAnimationHandler.cs" />
-     <Compile Include="Assets\FireSwitch.cs" />
-     <Compile Include="Assets\FollowPlayer.cs" />
-     <Compile Include="Assets\GlobalControl.cs" />
-     <Compile Include="Assets\NewCharacterMovement.cs" />
-     <Compile Include="Assets\PlayerFollow.cs" />
+     <Compile Include="Assets\displayRoom.cs" />
+     <Compile Include="Assets\displayRoomIngame.cs" />
+     <Compile Include="Assets\loadLevel1.cs" />
      <Compile Include="Assets\Scripts\ActivateButton.cs" />
      <Compile Include="Assets\Scripts\AttachPlayer.cs" />
      <Compile Include="Assets\Scripts\ChangeRoom.cs" />
      <Compile Include="Assets\Scripts\CharacterAction.cs" />
+     <Compile Include="Assets\Scripts\CharacterAnimationHandler.cs" />
      <Compile Include="Assets\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\Scripts\collisionHandler.cs" />
+     <Compile Include="Assets\Scripts\FireSwitch.cs" />
+     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GlobalControl.cs" />
+     <Compile Include="Assets\Scripts\NewCharacterMovement.cs" />
      <Compile Include="Assets\Scripts\PlatformMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\Scripts\ShootWater.cs" />
      <Compile Include="Assets\Scripts\showSitckHealth.cs" />
      <Compile Include="Assets\Scripts\StickHealth.cs" />
      <Compile Include="Assets\Scripts\WaterBullet.cs" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/bingiz/Documents/GitHub/One Stick/One Stick/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

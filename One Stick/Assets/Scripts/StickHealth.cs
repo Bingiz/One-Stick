@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StickHealth : MonoBehaviour
 {
@@ -26,6 +27,10 @@ public class StickHealth : MonoBehaviour
         if (burning)
         {
             stickHealth -= burnSpeed * Time.deltaTime;
+        }
+        if(stickHealth<=0){
+            SceneManager.LoadScene("Loose_Screen");
+            Destroy(gameObject);
         }
     }
 }

@@ -11,8 +11,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        roomNrText = GameObject.Find("Room Nr").GetComponent<Text>();
-        roomNrText.text = "Room " + roomNr.ToString();
+        //roomNrText = GameObject.Find("Room Nr").GetComponent<Text>();
+        //roomNrText.text = "Room " + roomNr.ToString();
     }
 
     public void CompleteLevel(){
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        roomNrText = GameObject.Find("Room Nr").GetComponent<Text>();
-        roomNrText.text = "Room " + roomNr.ToString();
+        //roomNrText = GameObject.Find("Room Nr").GetComponent<Text>();
+        //roomNrText.text = "Room " + roomNr.ToString();
     }
 }

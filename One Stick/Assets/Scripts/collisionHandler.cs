@@ -12,7 +12,7 @@ public class collisionHandler : MonoBehaviour
     {
         gameManager = GameObject.Find("Game Controller").GetComponent<GameManager>();
         stickHealth = GameObject.Find("Game Controller").GetComponent<StickHealth>();
-        Debug.Log("stick set to false");
+        Debug.Log("stick not burning");
         if (stickHealth.burning)
         {
             stick.SetActive(true);
@@ -50,6 +50,10 @@ public class collisionHandler : MonoBehaviour
             Debug.Log("WATER");
             stickHealth.burning = false;
         }
+        else if (hit.transform.tag == "Extinguished")
+        {
+            Debug.Log("Extinguished");
+        }
         else if (hit.transform.tag == "Fire")
         {
             //light Torch
@@ -57,6 +61,8 @@ public class collisionHandler : MonoBehaviour
             Debug.Log("FIRE");
             stickHealth.burning = true;
         }
+        
+        
         else if (hit.transform.tag == "Wind")
         {
             //torch starts burning quicker
