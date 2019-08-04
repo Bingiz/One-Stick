@@ -120,75 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &65028173
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 223356984262514075, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_Name
-      value: Water
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.025
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0072193146
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223356984262514087, guid: 89e682fced03e47f589add455ef379a2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 89e682fced03e47f589add455ef379a2, type: 3}
 --- !u!1001 &124320566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -672,7 +603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: -20}
+  m_AnchoredPosition: {x: 0.000061035156, y: -51.48}
   m_SizeDelta: {x: 750, y: 400}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &376054393
@@ -696,7 +627,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: e527a68f37eec40dda9d3e74b85d4f08, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
@@ -707,8 +638,16 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ABOUT
+    m_LineSpacing: 1.3
+  m_Text: 'A youtuber named Dungeon lord has always searched for The Big Thing nobody
+    did before. He told himself everybody''s on vacation and shares videos of sun
+    kissed places, why shouldn''t I mention the places beneath the surface? He finds
+    a way into the sewers and challenges himself: how long can I survive with only
+    one stick? The stick works as a torch through the different levels, and gets shorter
+    the longer its flame burns. So you have to be as fast as you can, because without
+    the flame you won''t see anything.
+
+'
 --- !u!222 &376054394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -753,7 +692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -56.80005}
+  m_AnchoredPosition: {x: 0, y: -56.800293}
   m_SizeDelta: {x: 716.79, y: 257.70996}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &582140477
@@ -961,7 +900,7 @@ RectTransform:
   - {fileID: 1453106873}
   - {fileID: 211474876}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1123,7 +1062,7 @@ PrefabInstance:
     - target: {fileID: 3029651701365019136, guid: cca9c73960cd14287b5a277680367ace,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3029651701365019136, guid: cca9c73960cd14287b5a277680367ace,
         type: 3}
@@ -1438,7 +1377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1118941499
 PrefabInstance:
@@ -1693,6 +1632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786b53a617b314ae89d8a308ed44a237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickHealth: {fileID: 0}
 --- !u!114 &1453106875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,7 +1777,7 @@ Transform:
   - {fileID: 660397625}
   - {fileID: 222330767}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2046355684
 GameObject:
@@ -1984,6 +1924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786b53a617b314ae89d8a308ed44a237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickHealth: {fileID: 0}
 --- !u!1001 &779686069008140075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2039,7 +1980,7 @@ PrefabInstance:
     - target: {fileID: 779686067858046889, guid: 0e7c14fe623554a5ba6eb88b9fd8fcc7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 779686067858046889, guid: 0e7c14fe623554a5ba6eb88b9fd8fcc7,
         type: 3}
@@ -2108,7 +2049,7 @@ PrefabInstance:
     - target: {fileID: 2229760218399763637, guid: f6feba58c1450419da5cdfcc9d4b1420,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2229760218399763637, guid: f6feba58c1450419da5cdfcc9d4b1420,
         type: 3}
@@ -2182,7 +2123,7 @@ PrefabInstance:
     - target: {fileID: 3029651701365019136, guid: cca9c73960cd14287b5a277680367ace,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3029651701365019136, guid: cca9c73960cd14287b5a277680367ace,
         type: 3}
