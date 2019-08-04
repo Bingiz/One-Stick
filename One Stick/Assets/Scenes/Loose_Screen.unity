@@ -1805,6 +1805,7 @@ GameObject:
   - component: {fileID: 2046355687}
   - component: {fileID: 2046355686}
   - component: {fileID: 2046355689}
+  - component: {fileID: 2046355690}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1937,6 +1938,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786b53a617b314ae89d8a308ed44a237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickHealth: {fileID: 0}
+--- !u!114 &2046355690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046355684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7087e6380026f4795a3b50494d4a26de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickHealth: {fileID: 0}
 --- !u!1001 &2229760217760737963
 PrefabInstance:
   m_ObjectHideFlags: 0
